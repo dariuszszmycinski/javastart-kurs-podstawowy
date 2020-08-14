@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.javastart.fxaction.controller.MainPaneController">
+   <children>
+      <TextArea fx:id="leftTextArea" onKeyTyped="#leftType" prefHeight="125.0" prefWidth="150.0" />
+      <TextArea fx:id="rightTextArea" layoutX="100.0" layoutY="-100.0" onKeyTyped="#rightType" prefHeight="125.0" prefWidth="150.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Button fx:id="clearButton" layoutX="124.0" layoutY="124.0" mnemonicParsing="false" onAction="#clearBothTextAreas" prefHeight="25.0" prefWidth="71.0" text="Clear windows" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+   </children>
+</AnchorPane>
